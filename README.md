@@ -1,7 +1,5 @@
 # AWS DynamoDBtoCSV
 
-[![Join the chat at https://gitter.im/edasque/DynamoDBtoCSV](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/edasque/DynamoDBtoCSV?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 This application will export the content of a DynamoDB table into CSV (comma-separated values) output. All you need to do is update `config.json` with your AWS credentials and region.
 
 The output is comma-separated and each field is enclosed by double quotes ("). Double quotes in the data as escaped as \"
